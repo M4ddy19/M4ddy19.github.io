@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>VALENTINE'S DAY</title>
+  <link rel="icon" type="image/png" sizes="100%" href="https://cdn-icons-png.flaticon.com/512/9444/9444300.png" />
+
+  <!-- Include Google Fonts link -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&display=swap">
+
+  <style>
+
+   body {
+      background-image: url('https://img.freepik.com/premium-photo/cute-white-rabbit-with-heart-pink-background-valentines-day-concept_195703-1646.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+	}
+
+    p {
+      margin: 0px;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      color: white;
+      text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
+      text-shadow: 0 0 50px red;
+      font-family: Allura, cursive; 
+    }
+
+  </style>
+</head>
+
+<body>
+  <p>
+    Hey My cute Little Sapling, you are very precious to me. When I'm with you, I have my everything. I love you soooo muchhh... With you, I've found my love, my best friend, my gnda/acha bacha, and my greatest supporter. Will you do me the honor of being with me Till The End.
+    <br><br>
+    WILL  YOU  BE  MY  VALENTINE???
+  </p>
+
+</body>
+
+<title>Buttons</title>
+
+<style>
+  #Button1 {
+    position: fixed;
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+
+  #Button2 {
+    position: absolute;
+    left: 39%;
+    top: 68%;
+  }
+</style>
+
+<body>
+  <br>
+  <br>
+  <button id="Button1">Yes!</button>
+  <button id="Button2">No</button>
+  <script>
+    const Button2 = document.getElementById('Button2');
+    let left = 40;
+    Button2.addEventListener('mouseover', function () {
+      if (left == 40) {
+        left = 48;
+      } else {
+        left = 40;
+      }
+      this.style.left = left + '%';
+    });
+  </script>
+  <script>
+    document.getElementById('Button1').addEventListener('click', function () {
+      alert('AWWWW THANKSSS! I LOVE YOU <3');
+    });
+  </script>
+</body>
+</html>
